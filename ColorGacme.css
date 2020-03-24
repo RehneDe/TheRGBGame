@@ -1,0 +1,87 @@
+body{
+    background-color: greenyellow;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.square{
+    width: 30%;
+    border-radius: 50%;
+    background: #3a3838 ;
+    padding-bottom: 30%;
+    margin: 1.5%;
+    float: left;
+    border: 1px solid rgb(146, 233, 17);
+    transition: all 1s;
+}
+#container{
+    max-width: 600px;
+    margin: 12px auto;
+
+}
+#stripe{
+    text-align: center;
+    height: 30px;
+    background: rgb(2, 78, 21) ;
+
+    
+}
+/* #reset{
+    background:yellow;
+}
+#message{
+    background: yellow;
+} */
+/* #esybtn{
+    margin: 4.6px 0 4.6px 250px;
+}
+#mdmbtn{
+    margin: 4px 0px;
+}
+#hrdbtn{
+    margin: 4.6px 0px;
+} */
+div span{
+    margin: auto auto;
+}
+.selected{
+    color : green;
+    background: greenyellow;    
+}
+/* esybtn.classList.add('selected');
+hrdbtn.classList.remove('.selected');
+hrdbtn.classList.add('selected');
+esybtn.classList.remove('.selected'); */
+h1{
+    text-align: center;
+    margin: 0;
+    line-height: 1.1    ;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#colorDisplay
+{
+    font-size: 200%;
+    margin: 0 ;
+}
+button{
+    height: 100%;
+    background: none;
+    border: none;
+    color: greenyellow;
+    letter-spacing: 0.6px;
+    font-size: inherit;
+    font-weight: 700;
+    transition: all .4s;
+
+}
+#message{
+    display: inline-block;
+    width: 15.5%;
+    color: greenyellow;
+}
+
+button:hover{
+    color : green;
+    background: greenyellow;  
+}
